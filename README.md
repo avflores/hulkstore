@@ -181,7 +181,7 @@ curl --location --request POST 'http://localhost:8080/api/compras/guardar' \
 ```
 ## Test
 
-El test de la clase Marca es un ejemplo de @SpringBootTest.
+Se implementa un test unitario usando @SpringBootTest.
 
 
 
