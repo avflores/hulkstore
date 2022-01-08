@@ -6,7 +6,22 @@ basados en los superhéroes de Marvel y DC comics, incluso algunos alternativos 
 comunidad.
 
 
-# KARDEX
+## Construir el proyecto
+
+El proyecto es contruido con MAVEN.
+
+```console
+$ mvn clean install
+```
+
+### Levantar el proyecto
+
+```console
+$ ./mvnw spring-boot:run
+
+```
+
+#API KARDEX
 
 La tarjeta kardex permite llevar el inventario de los productos, se puede usar el método promedio ponderado y FIFO
 Todos los productos tendrán un inventario inicial.
@@ -169,19 +184,5 @@ curl --location --request POST 'http://localhost:8080/api/compras/guardar' \
 El test de la clase Marca es un ejemplo de @SpringBootTest.
 
 
-## Construir el proyecto
-
-El proyecto es contruido con MAVEN.
-
-```console
-$ mvn clean install
-```
-
-### Levantar el proyecto
-
-```console
-$ ./mvnw spring-boot:run
-
-```
 
 
