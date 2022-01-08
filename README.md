@@ -21,7 +21,7 @@ $ ./mvnw spring-boot:run
 
 ```
 
-#API KARDEX
+# API KARDEX
 
 La tarjeta kardex permite llevar el inventario de los productos, se puede usar el método promedio ponderado y FIFO
 Todos los productos tendrán un inventario inicial.
