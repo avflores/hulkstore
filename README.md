@@ -1,10 +1,16 @@
-# BIENVENIDOS A HULK STORE - KARDEX
+# HULK STORE - KARDEX
 
 La empresa Todo1 ha decido realizar un emprendimiento, el cual consiste en la creación de una tienda
 de productos para sus empleados, aquí podrás encontrar camisetas, vasos, comics, juguetes y accesorios
 basados en los superhéroes de Marvel y DC comics, incluso algunos alternativos creados por la
 comunidad.
 
+Se implementa usando SpringBoot V2.3.3 con persistencia en base de datos en memoria (H2).
+
+Se implementa un API Rest para las siguientes funcionalidades: 
+- Creación nuevo producto: crea productos nuevos con un invetario inicial.
+- Compras : son las entradas de productos al inventario.
+- Ventas: son las salidas de productos del inventario.
 
 ## Construir el proyecto
 
