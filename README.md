@@ -19,6 +19,15 @@ El proyecto es contruido con MAVEN.
 ```console
 $ mvn clean install
 ```
+Si lo prefiere, puede ejecutar el <strong>contenedor docker</strong>:
+
+Se descargará un contenedor Linux con JAVA ya instalado para ejecutar aplicaciones Spring Boot.
+
+Se requiere el runtime v19 de [Docker](https://docs.docker.com/get-docker/) para ejecutar este container.
+
+```console
+$ docker run --rm -it -p 8080:8080 avfloresp/todo1-challenge-af:0.0.1-SNAPSHOT
+```
 
 ### Levantar el proyecto
 
@@ -29,8 +38,16 @@ $ ./mvnw spring-boot:run
 
 # API KARDEX
 
-La tarjeta kardex permite llevar el inventario de los productos, se puede usar el método promedio ponderado y FIFO
+La tarjeta kardex permite llevar el inventario de los productos, se puede usar el método promedio ponderado (PP) y FIFO
 Todos los productos tendrán un inventario inicial.
+
+## Consulta de marcas
+Consulta de marcas de los productos.
+Endpoint
+
+```text
+GET /api/marcas/listar
+```
 
 ## Nuevo producto e inventario Inicial
 
